@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://st.depositphotos.com/1007879/60607/i/450/depositphotos_606072142-stock-photo-space-background-nebula-stars-environment.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+main {
+  border: 2px solid;
+  padding: 50px;
+  background: linear-gradient(to right, #ff27a5, #9e00a8, #eb0070);
+  border-radius: 20px;
+  border: none;
+  color: black;
+  box-shadow: 0px 15px 30px white, 0px 8px 10px white;
+
+  input {
+    display: block;
+    margin-top: 20px;
+    background-image: url("https://st.depositphotos.com/1007879/60607/i/450/depositphotos_606072142-stock-photo-space-background-nebula-stars-environment.jpg");
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+  }
+
+  button {
+    width: 30px;
+    border: none;
+    padding: 5px;
+    margin: 6.5px;
+    margin-top: 20px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+    background-color: #8607be;
+    color: black;
+  }
+}
